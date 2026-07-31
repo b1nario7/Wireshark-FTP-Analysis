@@ -1,17 +1,21 @@
 # FTP Incident Analysis
 
-En este laboratorio analicé una captura de red utilizando Wireshark.
+## Objetivo
 
-Durante la investigación observé:
+Analizar una captura de red para identificar un posible incidente relacionado con el protocolo FTP utilizando Wireshark.
 
-- Intentos fallidos de autenticación.
+## Herramientas utilizadas
 
-- Un inicio de sesión exitoso.
+- Wireshark
+- Archivo PCAP
 
-- Descarga de archivos.
+## Hallazgos
 
-- Intento de subida de un archivo.
+- Se identificó tráfico FTP.
+- Se observaron múltiples intentos de autenticación.
+- Se detectó un inicio de sesión exitoso.
+- Se identificaron comandos para listar, descargar y subir archivos.
 
-Aprendizaje:
+## Aprendizaje
 
-FTP transmite credenciales sin cifrar, por lo que representa un riesgo de seguridad.
+Aprendí que FTP transmite información sin cifrar, lo que permite observar usuarios, contraseñas y comandos durante una captura de red.
